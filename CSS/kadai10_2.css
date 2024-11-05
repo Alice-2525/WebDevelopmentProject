@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: top;
+}
+
+#container {
+    width: 750px;
+    margin: 20px auto 0 auto;
+}
+
+#logo {
+    margin: 10px 0 10px 0;
+}
+
+#globalNavi {
+    display: flex;
+    width: 750px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+#globaNavi li {
+    width: 150px;
+    height: 60px;
+    background-color: #4e2519;
+    text-align: center;
+    line-height: 60px;
+}
+
+#main {
+    display: flex;
+}
+
+.content-left {
+    width: 500px;
+}
+
+.content-right {
+    width: 250px;
+}
+
+.title {
+    width: 98%;
+    height: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #541e0a;
+}
+
+.item-wrap {
+    display: flex;
+}
+
+.item {
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+}
+
+.price {
+    color: #f09;
+    font-size: 12px;
+}
+
+.item img {
+    background-color: #fff;
+    padding: 2px;
+    border-bottom: 1px solid #381909;
+}
+
+#footer {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dotted #333;
+}
+
+#copyright {
+    font-size: 0.8em;
+    text-align: center;
+}
+

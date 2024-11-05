@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #39c url(../image/kadai10_1_back.jpg) left top repeat-x;
+    font-family: "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.4em;
+}
+
+ul {
+    list-style: none;
+}
+
+#container {
+    width: 640px;
+    background: #fff;
+    margin: 50px auto 50px auto;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+#sidebar {
+    width: 200px;
+    height: 400px;
+    padding-left: 20px;
+}
+
+#sidebar h2 {
+    margin-top: 10px;
+}
+
+#sidebar li {
+    font-size: 1.4em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#content {
+    width: 400px;
+    height: 400px;
+}
+
+#content h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #c30;
+}
+
+#content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-left: 5px;
+}
+
+#footer {
+    height: 40px;
+    background: url(../image/kadai10_1_footer.gif) left top no-repeat;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+#footer p {
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #fff;
+}

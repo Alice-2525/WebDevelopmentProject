@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="regist.php" method="post" novalidate>
+        <table>
+            <tr>
+                <th>お名前（必須）<br></th>
+                <td>
+                    <input type="text" name="namae" value="" placeholder="ECC太郎" required><br>
+                </td>                
+            </tr>
+
+            <tr>
+                <th>年齢<br></th>
+                <td>
+                    <input type="text" name="age" value="" placeholder="20" required><br>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <th>メールアドレス（必須）<br></th>
+                <td>
+                    <input type="email" name="mailaddress" value="" placeholder="example@ex.com" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <th>住所<br></th>
+                <td>
+                    <input type="text" name="address" value="" placeholder="ECC" required><br>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button type="submit">
+                        登録
+                    </button>
+                </td>
+            </tr>
+            
+        </table>
+    </form>
+</body>
+</html>

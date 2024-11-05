@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/*
+body {
+    color: blueviolet;
+    font-size: 40px;
+}
+*/
+
+/* クラスを指定(HTMLの方で名付けたやつ)
+　.クラス名 
+
+    .text {
+    color: #f344f7;
+    line-height: 2;
+} */
+
+/* 
+    .text em はテキストが入ってるemに適用
+    em　だけなら、全部のemに適用
+*/
+
+/* id名指定(HTMLの方で名付けたやつ)
+    #id名
+*/
+/* #shape {
+    letter-spacing: 1em;
+} */
+
+body {
+    font-family: "MS, Pゴシック", sans-serif;
+}
+
+h1 {
+    color: #c30;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+}
+
+.text em{
+    font-size: 1em;
+
+    color: #c30;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#inyou {
+    font-family: monospace;
+    font-size: 12px;
+    text-align: right;
+}

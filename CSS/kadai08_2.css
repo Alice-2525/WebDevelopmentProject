@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body {
+    background: #f0ffba url(../image/kadai08_back.jpg) left top;
+    font-family: "ＭＳ Ｐゴシック", sans-serif;
+    font-size: 100%;
+    padding: 20px;
+}
+
+.title {
+    color: #3f200e;
+    font-size: 20px;
+    border-bottom: 3px solid #8f7517;
+}
+
+.sub-title {
+    color: #3f200e;
+    font-size: 16px;
+    padding-left: 5px;
+    border-left: 3px solid #8f7517;
+}
+
+.set {
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    border: 1px solid #453933;
+}
+
+.set p {
+    font-size: 0.7em;
+    margin: 10px 5px 0 5px;
+    padding-left: 0;
+    line-height: 1.8em;
+}
+
+
+.item-title {
+    background-color: #281105;
+    color: #fff;
+    padding: 0.3em;
+}
+
+#drink{
+    text-align: right;
+}

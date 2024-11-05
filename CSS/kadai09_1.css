@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+    background: #fff url(../image/kadai09_back.jpg) left top repeat-x
+}
+
+h1 {
+    color: #ccf;
+    font-family: "Arial", sans-serif;
+    font-size: 1.2em;
+}
+
+#container {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+#container p {
+    position: absolute; /*絶対配置*/
+    /* position:relative 相対配置 */
+}
+
+.text {
+    top: 260px;
+    width: 600px;
+    height: 5em;
+    overflow: auto;
+    font-size: 0.8em;
+    line-height: 1.5;
+}
+
+#photo1 {
+    top:50px;
+    left:20px;
+    z-index: 1;
+}
+
+#photo2 {
+    top:120px;
+    left:120px;
+    z-index: 3;
+}
+
+#photo3 {
+    top:50px;
+    left:220px;
+    z-index: 2;
+}
+
+#photo4 {
+    top:120px;
+    left:320px;
+    z-index: 4;
+}

@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* padding 内側 margin 外側 */
+/* position: absolute 絶対配置 relative 相対配置 */
+/* 上 右 下 左 の順番に指定したら、まとめることができる */
+
+* {
+    box-sizing: border-box;     /* ボックスサイズ指定 */
+    font-size: 100%;            /* フォントの大きさ */
+    margin: 0;                  /* margin 外側 */
+    padding: 0;                 /* padding 内側 */
+}
+
+body {
+    background: #efe8d3 url(../image/kadai11_bk_body.jpg);  /* 背景色、背景画像 */
+}
+
+ul {
+    list-style: none;   /* リストの表示形式 */
+}
+
+#container {
+    margin: 20px auto 0 auto;
+    width: 950px;       /* 幅 */
+}
+
+#header {
+    width: 950px;
+    padding-bottom: 20px;
+}
+
+#navi {
+    width: 200px;
+    height: 350px;
+    position: relative;     /* 相対配置 */
+}
+
+#navi ul {
+    position: fixed;
+    background-color: #efe8d3;
+    width: 200px;
+    padding: 5px 10px;
+}
+
+#navi li {
+    border-bottom: 1px dotted #cdbea0;
+    padding-bottom: 10px;
+    margin: 10px 0 10px 0;
+    width: 180px;
+    height: 54px;
+}
+
+#navi a {
+    display: block; /* ブロック */
+    width: 175px;
+    height: 43px;
+    padding: 10px 5px 0 5px;
+    line-height: 23px;
+}
+
+#navi a:link, #navi a:visited {
+    color: #432519;
+    font-size: 0.8em;
+    text-align: right;
+    font-weight: bold;
+    text-decoration:none;   /* テキストに下線引いたり指定できる */
+}
+
+#company a {
+    background-image: url(../image/kadai11_btn_nav01.png);
+}
+
+#company a:hover {
+    background-image: url(../image/kadai11_btn_nav01_on.png);
+}
+
+#menu a {
+    background-image: url(../image/kadai11_btn_nav02.png);
+}
+
+#menu a:hover {
+    background-image: url(../image/kadai11_btn_nav02_on.png);
+}
+
+#special a {
+    background-image: url(../image/kadai11_btn_nav03.png);
+}
+
+#special a:hover {
+    background-image: url(../image/kadai11_btn_nav03_on.png);
+}
+
+#season a {
+    background-image: url(../image/kadai11_btn_nav04.png);
+}
+
+#season a:hover {
+    background-image: url(../image/kadai11_btn_nav04_on.png);
+}
+
+#cake a {
+    background-image: url(../image/kadai11_btn_nav05.png);
+}
+
+#cake  a:hover {
+    background-image: url(../image/kadai11_btn_nav05_on.png);
+}
+
+.flex {
+    display: flex;
+}
+
+#main {
+    width: 700px;
+    background-color: #f8f8f8;
+    margin: 0 0 20px 20px;
+}
+
+#mainVisual {
+    width: 700px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.item-wrap {
+    background-color: #f9f9f9;
+    height: 240px;
+    width: 660px;
+    padding: 20px; 
+    margin: 20px;
+    border: 1px solid #cdbea0;
+    position: relative;
+    display: flex;  /* フレックスコンテナ */
+    font-size: 0.8em;
+}
+
+.item-image {
+    width: 250px;
+}
+
+.item-image img {
+    border: none;
+    padding: none;
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid #999;
+}
+
+.item-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.item-text {
+    line-height: 1.3;   /* 行間 */
+}
+
+.item-price {
+    display: block;
+    width: 8.4em;
+    background-color: #3d160d;
+    color: #fff;
+    font-weight: bold;
+    text-align: center; /* 文字の位置 */
+    margin-top: 10px;
+    padding: 0.2em;
+}
+
+.item-component {
+    width: 350px;
+    position: absolute;     /* 絶対配置 */
+    border-collapse: collapse;  /* 重ねて表示 */
+}
+
+.item-component th {
+    font-size: 0.8em;
+    padding: 5px;
+    border: 1px solid #999; /* 線の太さ 実線 色 */
+}
+
+.item-component td {
+    font-size: 0.8em;
+    padding: 5px;
+    border: 1px solid #999;
+}
+
+.item-component caption {
+    font-weight: bold;  /* 太文字 */
+}
+
+.item-component th {
+    background-color: #dedede;
+}
+
+.item-component td {
+    text-align: center;
+}
+
+.recommend {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#footer {
+    width: 950px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid #666666;
+    font-size: 0.6em;
+    text-align: center; /* テキストの位置 */
+}

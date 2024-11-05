@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    font-family: "MS Pゴシック", sans-serif;
+    font-size: 18px;
+    background: #7ae url(../image/kadai08_bkline.jpg) left top repeat-x
+}
+
+h1 {
+    color: #ccf;
+    font-size: 1.4em;
+    padding-bottom: 10px;
+}
+
+h2,h3 {
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #c30;
+}
+
+p {
+    line-height: 1.2;
+}
+
+#container {
+    background: url(../image/kadai08_standards.png) right top no-repeat;
+}
+
+#content_top {
+    text-indent: 1em;
+    padding: 10px 0 10px 5px;
+}
+
+#content_bottom {
+    text-indent: 1em;
+    padding: 10px 0 10px 5px;
+}
+
+.border {
+    border-right: 1px dotted #fff;
+    border-bottom: 1px dotted #fff;
+}
